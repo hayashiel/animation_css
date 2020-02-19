@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+#s{
+   background-color: red;
+   width: 50px;
+   height: 50px;
+   animation-name: example;  
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+#st{
+   background-color: red;
+   width: 50px;
+   height: 50px;
+   animation-name: example1;  
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{margin-left: 100%;}
+    50%{margin-left: 50%;}
+    100%{margin-left: 0%;}
+}
+@keyframes example1{
+    0%{margin-left: 0%;}
+    50%{margin-left: 50%;}
+    100%{margin-left: 95%;}
+}
+</style>
+</head>
+<body>
+<div id="s"></div>
+<div id="st"> </div>
+</body>
+</html>
