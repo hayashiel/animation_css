@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+#d{
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation-name: magical;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    animation-direction: alternate;
+}
+@keyframes magical{
+    0% {background-color: red; top:0px; }
+    25% {background-color: yellow; top: 0px;transform: translateX(20px);}
+    50% {background-color: blue; top: 0px;transform: translateY(20px);}
+    75% {background-color: green; top: 0px; transform: translateX(-20px);}
+    100% {background-color: red; top: 0px; transform: translateX(1px);}
+}
+</style>
+</head>
+<body>
+<div>
+     <p id="d"></p>
+     <p id="d"></p>
+
+<br/>
+     <p id="d"></p>
+     <p id="d"></p>
+<br/>
+</div>
+<div>
+</div>
+</body>
+</html>
