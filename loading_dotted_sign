@@ -1,0 +1,144 @@
+<html>
+<head>
+<style>
+#awesome{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+    position: absolute;
+    animation-delay: 0s;
+}
+#awesome1{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-delay: 0.125s;
+}
+#awesome2{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+    position: absolute;
+    animation-delay: 0.25s;
+}
+#awesome3{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-delay: 0.375s;
+}
+#awesome4{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+    position: absolute;
+    animation-delay: 0.5s;
+}
+#awesome5{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;   
+    position: absolute;
+    animation-delay: 0.625s;
+}
+#awesome6{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-delay: 0.75s;
+}
+#awesome7{
+    border-radius: 2px;
+    width: 4px;
+    display: inline-block;
+    height: 4px;
+    background-color: red;
+    animation-name: hid;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+    position: absolute;
+    animation-delay: 0.875s;
+}
+
+
+
+@keyframes hid{
+
+    0% {}
+    12% {transform: translateY(-20px);}
+    25% {transform: translateY(20px);}
+    37% {}
+    50% {}
+    62% {}
+    75% {}
+    87% {}
+    100% {}
+
+ 
+}
+</style>
+</head>
+<body>
+
+<br>
+<br><div>
+    
+<p id="awesome"></p>   
+&nbsp
+<p id="awesome1"></p>   
+&nbsp
+<p id="awesome2"></p>   
+&nbsp
+<p id="awesome3"></p>   
+&nbsp
+<p id="awesome4"></p>   
+&nbsp
+<p id="awesome5"></p>
+&nbsp
+<p id="awesome6"></p>
+&nbsp
+<p id="awesome7></p>
+<div>
+<p> HI TO Y'ALL</p>
+</div>
+</div>
+</body>
+</html>
